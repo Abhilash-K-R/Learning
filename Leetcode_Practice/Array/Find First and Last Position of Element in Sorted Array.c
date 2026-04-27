@@ -12,9 +12,9 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize) {
     for(int i=0; i<numsSize; i++){
         if(nums[i] == target){
             if(ans[0] == -1)
-                ans[0] = i; // first position
+                ans[0] = i; // First position
             
-            ans[1] = i; // keep updating last position
+            ans[1] = i; // updating last position
         }
     }
 
